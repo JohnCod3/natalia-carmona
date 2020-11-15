@@ -1,0 +1,97 @@
+:root {
+  --dark: #aa96da;
+  --light: #fafafa;
+  --primary: #efbbcf;
+  --secondary: #c3aed6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: var(--light);
+  display: flex;
+  font-family: 'Open Sans', Arial, sans-serif;
+  justify-content: center;
+}
+
+.container {
+  max-width: 768px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 500px;
+  width: 100%;
+}
+
+.btn-group {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-group li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn i {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+.btn.facebook {
+  background-color: #1877f2;
+  color: #fff;
+}
+
+.btn.instagram {
+  background-color: #f00075;
+  color: #fff;
+}
+
+.btn.whatsapp {
+  background-color: #128c7e;
+  color: #fff;
+}
+
+.btn.email,
+.btn.phone {
+  border: 1px solid #333;
+  color: #333;
+}
+
+@media screen and (min-width: 641px) {
+  .btn-group.socials li {
+    width: 33.33%;
+  }
+
+  .btn-group.contact li {
+    width: 50%;
+  }
+}
