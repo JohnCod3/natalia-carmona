@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-style: 300;
+  font-weight: 300;
   src: url('fonts/open-sans-light.eot');
   src: local(''),
     url('fonts/open-sans-light.eot?#iefix') format('embedded-opentype'),
@@ -14,7 +14,7 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-style: 400;
+  font-weight: 400;
   src: url('fonts/open-sans-regular.eot');
   src: local(''),
     url('fonts/open-sans-regular.eot?#iefix') format('embedded-opentype'),
@@ -27,7 +27,7 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-style: 700;
+  font-weight: 700;
   src: url('fonts/open-sans-bold.eot');
   src: local(''),
     url('fonts/open-sans-bold.eot?#iefix') format('embedded-opentype'),
