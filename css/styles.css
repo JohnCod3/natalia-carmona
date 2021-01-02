@@ -36,6 +36,13 @@ body {
   width: 100%;
 }
 
+.description {
+  font-weight: 300;
+  margin: 40px 0 30px;
+  padding: 0 10px;
+  text-align: left;
+}
+
 .btn-group {
   font-size: 0;
   margin: 0;
